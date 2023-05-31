@@ -1,0 +1,25 @@
+.CreateToButton {
+    background-color: rgb(218, 204, 60);
+    box-shadow: 0 px 5px 25px rgba(210, 83, 20, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor:pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: rgba(115, 107, 215, 0.822);
+    display: flex;
+    justify-content: center;
+    height: 56px;
+    width: 56px;
+    margin: 0 24px 24px 24px;
+    z-index: 1;
+
+    transform: rotate(0);
+    transition: .3s ease;
+}
+.CreateToButton:hover {
+    transform: rotate(230deg);
+}
